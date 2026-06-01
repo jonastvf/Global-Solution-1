@@ -10,28 +10,47 @@
 
 <br>
 
-# Nome do projeto/atividade
+# AstroDash - Monitoramento de Clima Espacial e Riscos Orbitais 🚀
 
 ## Nome do grupo
 
-## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/in/sabrina-otoni-22525519b/">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/in/sabrina-otoni-22525519b/">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/in/sabrina-otoni-22525519b/">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/in/sabrina-otoni-22525519b/">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/in/sabrina-otoni-22525519b/">Nome do integrante 5</a>
+## Grupo São Paulo e Interior
 
-## 👩‍🏫 Professores:
-### Tutor(a) 
-- <a href="https://www.linkedin.com/in/sabrina-otoni-22525519b/">Nome do Tutor</a>
-### Coordenador(a)
-- <a href="https://www.linkedin.com/in/andregodoichiovato/">Nome do Coordenador</a>
+## Integrantes
 
+- <a href="https://www.linkedin.com/in/jonastadeufernandes">Jonas Tadeu V. Fernandes - RM563027</a>
+- <a href="https://www.linkedin.com/">Levi Passos Silveira Marques - RM56557</a>
+- <a href="https://www.linkedin.com/in/raphaelsilva-phael">Raphael da Silva - RM561452</a>
+- <a href="https://www.linkedin.com/in/raphael-dinelli-8a01b278">Raphael Dinelli Neto - RM562892</a>
+- <a href="https://www.linkedin.com/in/yan-cotta">Yan Pimental Cotta - RM562836</a>
 
-## 📜 Descrição
+## Professores
 
-*Descreva seu projeto com base no texto da Global Solution (até 600 palavras)*
+### Tutor
 
+- <a href="https://www.linkedin.com/in/caique-nonato/">Caique Nonato da Silva Bezerra</a>
+
+### Coordenador
+
+- <a href="https://www.linkedin.com/in/andregodoichiovato">André Godoi</a>
+
+## 🎯 A Proposta: A Nova Economia Espacial
+A economia global atual depende criticamente da infraestrutura em órbita (satélites de telecomunicação, GPS, monitoramento climático). No entanto, o clima espacial — como tempestades solares e aproximação de asteroides (NEOs) — representa um risco constante de bilhões de dólares para esses equipamentos. 
+
+O **AstroDash** é uma Prova de Conceito (POC) de um dashboard inteligente que democratiza o acesso a esses dados críticos. Ele consome dados oficiais em tempo real e utiliza Inteligência Artificial Generativa para traduzir métricas técnicas complexas em relatórios de risco claros e acionáveis.
+
+## ⚙️ Arquitetura e Tecnologias Utilizadas
+A solução foi arquitetada focando em eficiência, escalabilidade e integração de APIs, cumprindo os requisitos da disciplina:
+
+* **Linguagem Principal:** Python 
+* **Front-end / Dashboard:** Streamlit (Criação de interface web interativa e visualização de dados).
+* **Coleta de Dados:** Requisições automatizadas para a API pública da NASA (NeoWs / DONKI).
+* **Inteligência Artificial:** Integração com API de IA Generativa ([Inserir se usaram Gemini ou OpenAI]) para processamento de linguagem natural e análise de risco automatizada.
+
+### Como a solução atende aos requisitos mínimos da GS:
+1. **Uso de APIs e Dashboards:** Os dados são extraídos via API da NASA e plotados dinamicamente na interface Streamlit.
+2. **Aplicação de IA Generativa:** Um módulo da aplicação envia o JSON de dados espaciais brutos para um LLM (Large Language Model), solicitando um resumo executivo sobre os riscos de impacto ou interferência eletromagnética no dia atual.
+3. *Nota sobre Hardware:* Conforme edital, a integração com IoT/Edge Computing foi dispensada por não ser aplicável ao escopo de um software de monitoramento via dados em nuvem.
 
 ## 📁 Estrutura de pastas
 
@@ -60,7 +79,11 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório.*
+### Pré-requisitos
+* Python 3.8+ instalado.
+* Chave de API da NASA (obtida gratuitamente em api.nasa.gov).
+* Chave de API da [Gemini/OpenAI].
+
 
 
 ## 🗃 Histórico de lançamentos
