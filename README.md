@@ -50,7 +50,6 @@ A solução foi arquitetada focando em eficiência, escalabilidade e integraçã
 ### Como a solução atende aos requisitos mínimos da GS:
 1. **Uso de APIs e Dashboards:** Os dados são extraídos via API da NASA e plotados dinamicamente na interface Streamlit.
 2. **Aplicação de IA Generativa:** Um módulo da aplicação envia o JSON de dados espaciais brutos para um LLM (Large Language Model), solicitando um resumo executivo sobre os riscos de impacto ou interferência eletromagnética no dia atual.
-3. *Nota sobre Hardware:* Conforme edital, a integração com IoT/Edge Computing foi dispensada por não ser aplicável ao escopo de um software de monitoramento via dados em nuvem.
 
 ## 📁 Estrutura de pastas
 
