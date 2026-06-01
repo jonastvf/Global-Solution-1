@@ -14,7 +14,7 @@
 
 ## Nome do grupo
 
-## Grupo São Paulo e Interior
+### Grupo São Paulo e Interior
 
 ## Integrantes
 
