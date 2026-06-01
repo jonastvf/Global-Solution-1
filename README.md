@@ -64,10 +64,6 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>README.md</b>: Arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
-
-‼️ OBSERVAÇÃO DO TUTOR, favor desconsiderar do seu arquivo final: não há obrigação de usar todas as pastas, use apenas o que fizer SENTIDO para a entrega. ‼️
-
-
 ## 📎 Links e Observações
 
 - <b>Listagem de Links</b>: Links do projeto (ex. vídeos da entrega, páginas, etc.), 
