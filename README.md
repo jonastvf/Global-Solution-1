@@ -66,9 +66,9 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 ## 📎 Links e Observações
 
 - <b>Listagem de Links</b>:
-    - Vídeo no YouTube
-    - Site das APIs da NASA e documentação
-
+    - <a href="https://youtu.be/Ehhyldajotw">Vídeo no YouTube
+    - <a href="https://api.nasa.gov/">Site das APIs da NASA e documentação
+    - 
 - <b>Explicação de decisões técnicas</b>:
     - Por questões de segurança as chaves de API utilizadas não estão expostas no código neste repositório. Simulamos o ambiente com um arquivo .env.example, mas iremos enviar as chaves pela plataforma FIAP ON.
 
