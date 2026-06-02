@@ -35,7 +35,7 @@
 - <a href="https://www.linkedin.com/in/andregodoichiovato">André Godoi</a>
 
 ## 🎯 A Proposta: A Nova Economia Espacial
-A economia global atual depende criticamente da infraestrutura em órbita (satélites de telecomunicação, GPS, monitoramento climático). No entanto, o clima espacial — como tempestades solares e aproximação de asteroides (NEOs) — representa um risco constante de bilhões de dólares para esses equipamentos. 
+A economia global atual depende criticamente da infraestrutura em órbita (satélites de telecomunicação, GPS, monitoramento climático). No entanto, no ambiente espacial essa infraestrutura está exposta a fenômenos críticos como tempestades solares e aproximação de asteroides (NEOs) — representa um risco constante de bilhões de dólares para esses equipamentos. 
 
 O **AstroDash** é uma Prova de Conceito (POC) de um dashboard inteligente que democratiza o acesso a esses dados críticos. Ele consome dados oficiais em tempo real e utiliza Inteligência Artificial Generativa para traduzir métricas técnicas complexas em relatórios de risco claros e acionáveis.
 
@@ -44,12 +44,12 @@ A solução foi arquitetada focando em eficiência, escalabilidade e integraçã
 
 * **Linguagem Principal:** Python 
 * **Front-end / Dashboard:** Streamlit (Criação de interface web interativa e visualização de dados).
-* **Coleta de Dados:** Requisições automatizadas para a API pública da NASA (NeoWs / DONKI).
-* **Inteligência Artificial:** Integração com API de IA Generativa ([Inserir se usaram Gemini ou OpenAI]) para processamento de linguagem natural e análise de risco automatizada.
+* **Coleta de Dados:** Requisições automatizadas para a API pública da NASA.
+* **Inteligência Artificial:** Integração com API de IA Generativa (Gemini) para processamento de linguagem natural e análise de risco automatizada.
 
 ### Como a solução atende aos requisitos mínimos da GS:
 1. **Uso de APIs e Dashboards:** Os dados são extraídos via API da NASA e plotados dinamicamente na interface Streamlit.
-2. **Aplicação de IA Generativa:** Um módulo da aplicação envia o JSON de dados espaciais brutos para um LLM (Large Language Model), solicitando um resumo executivo sobre os riscos de impacto ou interferência eletromagnética no dia atual.
+2. **Aplicação de IA Generativa:** Um módulo da aplicação envia o JSON de dados espaciais brutos para um LLM (Large Language Model), solicitando um resumo executivo sobre os riscos de impacto no dia atual.
 
 ## 📁 Estrutura de pastas
 
@@ -57,7 +57,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>docs</b>: Pasta destinada à documentação textual, incluindo brainstorm, atas e registros de reuniões, desenhos, prints, diagramas, storyboard, estratégia de IA e arquitetura e etc.
 
-- <b>src</b>: Todo o código fonte desenvolvido, como scripts em Python, R, JS ou HTML, notebooks, códigos para ESP32/Arduino, APIs ou microsserviços, além de modelos, inferências e etc. Os tipos de arquivos e códigos são definidos no enunciado da atividade.
+- <b>src</b>: Todo o código fonte desenvolvido, como scripts em Python. Os tipos de arquivos e códigos são definidos no enunciado da atividade.
 
 - <b>data</b>: Contém os dados utilizados, como arquivos CSV, Excel, JSON, bases sintéticas e etc.
 
@@ -77,25 +77,15 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 ### Pré-requisitos
 * Python 3.8+ instalado.
 * Chave de API da NASA (obtida gratuitamente em api.nasa.gov).
-* Chave de API da [Gemini/OpenAI].
-
+* Chave de API da Gemini.
+* Chaves de API e arquivo .env serão compartilhados via plataforma FIAP On para evitar riscos de segurança.
+* Uma vez configurado o ambiente e declaradas as chaves de api basta rodar "streamlit run app.py" no terminal do editor de código (usamos VSCode).
 
 
 ## 🗃 Histórico de lançamentos
 
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
-
----
-
+* 0.1.0 - 01/06/2026
+ 
 
 ## 📋 Licença
 
